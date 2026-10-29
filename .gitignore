@@ -1,0 +1,7 @@
+# Fichiers temporaires ou logs
+*.log
+*.tmp
+.user_uploaded/
+_uploaded_zip/
+test.php
+
