@@ -1,11 +1,10 @@
 <?php
 session_start();
 
-// Récupération des erreurs venant de traitement.php
 $erreurs = isset($_SESSION['erreurs']) ? $_SESSION['erreurs'] : [];
 $ancien = isset($_SESSION['ancien']) ? $_SESSION['ancien'] : [];
 
-// On efface les erreurs après les avoir récupérées
+
 unset($_SESSION['erreurs']);
 unset($_SESSION['ancien']);
 ?>
@@ -20,7 +19,7 @@ unset($_SESSION['ancien']);
 <h2>Formulaire d'inscription</h2>
 
 <?php
-// Affichage des erreurs
+
 if (!empty($erreurs)) {
     echo "<div style='color:red; border:1px solid red; padding:10px;'>";
     echo "<strong>Erreurs :</strong><ul>";
