@@ -14,13 +14,37 @@ function remplir($n) {
     return $tableau;
 }
 
+function somme($tableau) {
+    $total = 0;
+
+    foreach ($tableau as $valeur) {
+        $total = $total + $valeur;
+    }
+
+    return $total;
+}
+
+function trier($tableau) {
+    sort($tableau);
+    return $tableau;
+}
+
+// --- Test ---
 $n = 8;
-$resultat = remplir($n);
+$tab = remplir($n);
 
-echo "<h3>Tableau de $n nombres aléatoires pairs (entre 1 et 30) :</h3>";
+echo "<h3>Tableau généré :</h3>";
+foreach ($tab as $v) {
+    echo $v . " | ";
+}
 
-foreach ($resultat as $valeur) {
-    echo $valeur . " | ";
+echo "<h3>Somme des éléments :</h3>";
+echo somme($tab);
+
+echo "<h3>Tableau trié (ordre croissant) :</h3>";
+$tabTrie = trier($tab);
+foreach ($tabTrie as $v) {
+    echo $v . " | ";
 }
 
 ?>
