@@ -6,9 +6,7 @@ function remplir($n) {
     while (count($tableau) < $n) {
         $nombre = rand(1, 30);
 
-        if ($nombre % 2 == 0) {
-            $tableau[] = $nombre;
-        }
+       
     }
 
     return $tableau;
@@ -29,7 +27,6 @@ function trier($tableau) {
     return $tableau;
 }
 
-// --- Test ---
 $n = 8;
 $tab = remplir($n);
 
