@@ -15,17 +15,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Code aléatoire</title>
+	<title>Code</title>
 </head>
 <body>
-	<h1>Générer un code aléatoire</h1>
+	<h1>Code au hasard</h1>
 
 	<form method="post">
-		<button type="submit">Générer le code</button>
+		<button type="submit">Créer un code</button>
 	</form>
 
 	<?php if ($code !== ''): ?>
-		<p>Votre code de 15 caractères : <strong><?= htmlspecialchars($code, ENT_QUOTES, 'UTF-8') ?></strong></p>
+		<p>Ton code : <strong><?= htmlspecialchars($code, ENT_QUOTES, 'UTF-8') ?></strong></p>
 	<?php endif; ?>
 </body>
 </html>
