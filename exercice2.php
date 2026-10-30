@@ -1,5 +1,5 @@
 <?php
-// Exercice 2 : Boucle while
+
 $valeur = 2;
 
 while ($valeur < 30) {

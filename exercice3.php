@@ -1,5 +1,5 @@
 <?php
-// Exercice 3 : Table de multiplication de 1 à 10
+
 echo "<table border='1'>";
 
 for ($i = 1; $i <= 10; $i++) {

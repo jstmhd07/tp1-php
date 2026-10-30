@@ -1,5 +1,5 @@
 <?php
-// Exercice 4 : Somme de deux nombres
+
 $a = 13;
 $b = 25;
 
