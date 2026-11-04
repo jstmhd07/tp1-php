@@ -52,5 +52,7 @@ if ($erreur != "") {
 
 </form>
 
+<p>Pas encore de compte ? <a href="inscription.php">S'inscrire</a></p>
+
 </body>
 </html>
