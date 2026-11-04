@@ -1,0 +1,38 @@
+Dr. Koundoul
+Année Académique : 2024-2025
+UAD
+TP 3 PHP MYSQL
+Exercice 1:
+1. Créer un formulaire HTML pour saisir le nom d'utilisateur et le mot de passe.
+2. Vérifier les informations saisies et démarrer une session si elles sont correctes.
+3. Afficher un message de bienvenue une fois connecté.
+4. Ajouter un bouton de déconnexion qui détruit la session.
+Fichiers :
+ login.php → Formulaire de connexion.
+ dashboard.php → Page après connexion.
+ logout.php → Déconnexion.
+Exercice 2:
+1. Afficher une liste de produits avec un bouton "Ajouter au panier".
+2. Lorsqu’un produit est ajouté, stocker son nom et son prix dans une session.
+3. Afficher les produits ajoutés dans une page "Mon Panier".
+4. Permettre de supprimer un produit du panier.
+5. Ajouter un bouton "Vider le panier" qui détruit la session.
+Fichiers :
+ index.php → Liste des produits.
+ panier.php → Affichage du panier.
+ supprimer.php → Supprime un produit du panier.
+ vider.php → Vide le panier.
+
+=== PAGE ===
+
+Exercice 3:
+1. Générer un token unique au chargement du formulaire et le stocker en session.
+2. Ajouter ce token sous forme de champ caché dans le formulaire.
+3. Lors de la soumission, vérifier si le token reçu correspond à celui stocké en session.
+4. Afficher un message d'erreur si le token est invalide.
+Fichiers :
+ form.php → Formulaire avec token CSRF.
+ traitement.php → Vérification et validation du token.
+NB : bin2hex(random_bytes(32)) les fonctions à utiliser pour générer le token
+Un token CSRF (Cross-Site Request Forgery) est une clé unique générée pour protéger les
+formulaires web contre les attaques de type usurpation de requête intersite.

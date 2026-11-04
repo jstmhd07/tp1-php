@@ -1,0 +1,63 @@
+Dr. Birane Koundoul
+Année Académique : 2025-2026
+TP 1 structure de contrôle et boucles
+Exercice 1:
+Donnerlecodepermettantd’afficherl’affichageci-dessous
+1
+22
+333
+4444
+55555
+666666
+7777777
+Exercice 2 :
+Déclarer une variable avec le nom de votre choix et avec la valeur 2. Tant que cette variable
+n'atteintpas30,ilfaut:
+ l'afficher;
+ incrémentersavaleurde3;
+Silavaleurdelavariableestégaleà15,lamettreenvaleuraveclabaliseHTMLappropriée.
+Exercice 3 :
+Créerunepagephppermettantdecalculeretd’afficherlatabledemultiplicationdesnombres
+de1à10souscetteforme:
+Exercice 4 :
+Créerunepagephppourfairelasommededeuxnombres.
+Exercice 5 :
+Créer une page php pour afficher le tableau de multiplication de 3. Mettez-le dans un tableau
+pourplusdevisibilité.
+
+=== PAGE ===
+
+3 X 1 = 3
+3 X 2 = 6
+3 X 3 = 9
+… … … … …
+Exercice 6 :
+Créerunepagephppourtestersilapersonneestmajeureoumineure.Sisonâgeestsupérieur
+à18,danscecaselleestmajeuresinonelleestmineure.
+Exercice 7 :
+Créer une page php pour créer un menu permettant à l’utilisateur de choisir un chiffre.
+Afficherlecontenuouledétailparrapportauchiffrechoisi.
+Exercice 8 :
+Créer un page php permettant de calculer la moyenne des nombres de 1 à 10 en utilisant la
+boucleforensuitelabouclewhile
+Exercice 9 :
+Ecrire un programme permettant d’afficher les nombre pairs compris entre 0 à 100. Utilisez
+lestroisbouclespourchaqueprogramme.
+Exercice 10 :
+En utilisant une double boucle, écrire un programme qui aﬃche une étoile, passe à la ligne,
+aﬃche deux étoiles, passe à la ligne, aﬃche trois étoiles… jusqu’à cinq étoiles aﬁn d’obtenir
+ceci:
+*
+**
+***
+****
+*****
+Exercice 11 :doubleboucle
+A l’aide d’une double boucle, réalisez un cône pour dessiner le haut du sapin sur 6 lignes.
+Vousdevriezobtenirceci:
+*
+***
+*****
+*******
+*********
+***********
